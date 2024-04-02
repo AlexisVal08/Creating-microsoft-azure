@@ -22,12 +22,12 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 
 ## 1. **:**
 
-   - Go to [Azure portal](https://portal.azure.com/).
+   - Go to [Azure portal Website](https://portal.azure.com/).
    -
    -
-<img width="428" alt="step" src="">
-<img width="428" alt="step" src="">
-<img width="428" alt="step" src="">
+<img width="428" alt="Step1A" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/9be5ed9b-8a1d-42c3-a0a6-74ccb82df3bf">
+<img width="428" alt="Step" src="">
+<img width="428" alt="Step" src="">
 
 
 
