@@ -22,8 +22,8 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 
 ## 1. **:**
 
-   - Go to [Azure portal Website](https://portal.azure.com/).
-   - Sign up for a brand new account free
+   - Go to [Azure portal Website](https://portal.azure.com/). Make sure not to click on ads.
+   - Sign up for a brand new account, click where it states 'Start free'.
    - 
 <img width="428" alt="Step1A" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/9be5ed9b-8a1d-42c3-a0a6-74ccb82df3bf">
 <img width="428" alt="Step1B" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/95eacf14-ff6e-4012-8014-b4f1f9272f94">
