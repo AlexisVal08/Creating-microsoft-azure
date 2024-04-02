@@ -8,26 +8,25 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 
 ## Environments and Technologies Used
 
-- **Microsoft Azure (Virtual Machines/Compute)**
-- **Remote Desktop**
-- **Internet Information Services (IIS)**
+- **Microsoft azure website**
+- **Internet service connection**
+- **Internet browser microsoft edge**
 - **Operating System:** Windows 10 (21H2)
+- **Computer with internet connection**
+- **Credit card(required for free azure credits)**
 
 ## List of Prerequisites
 
-- Azure Virtual Machine
-- Internet Information Services (IIS)
-- PHP Manager
-- Rewrite Module
-- VC Redist
-- MySQL
-- Heidi SQL
-- osTicket v1.15.8
-
+- 
+- 
+- 
+- 
+- 
 
 ## Installation Steps
 
 ## 1. **:**
+
    - Go to [Azure portal](https://portal.azure.com/).
    -
    -
@@ -38,12 +37,14 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 
 
 ## 2. **:**
+
    - Connect using Remote Desktop Connection app using the public IP address of the VM.
    - Also using the assigned login account and password
 <img width="428" alt="step" src="">
 <img width="428" alt="step" src="">
 
 ## 3. **:**
+
    - Go to Control Panel -> Programs -> Turn Windows features on and off.
    - Install/enable IIS with CGI and Common HTTP Features
    - World Wide Web Services -> Application Development Features
@@ -53,18 +54,22 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 <img width="428" alt="step" src="">
 
 ## 4. **:**
-   - Download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi).
+
+   - Download and install PH
+   -P Manager for IIS (PHPManagerForIIS_V1.5.0.msi).
 <img width="428" alt="step" src="">
 <img width="428" alt="step" src="">
 <img width="428" alt="step" src="">
 
 ## 5. **:**
+
    - Download and install the Rewrite Module (rewrite_amd64_en-US.msi).
 <img width="428" alt="step" src="">
 <img width="428" alt="step" src="">
 <img width="428" alt="step" src="">
 
 ## 6. **:**
+
    - Create a Directory folder named `PHP` in the C drive.
    - Download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) extract and unzip it into `C:\PHP`.
    - Download and install VC_redist.x86.exe from the installation files.
@@ -73,6 +78,7 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 <img width="428" alt="step" src="">
 
 ## 7. **:**
+
    - Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi). For installation accept agreements and set my sql as typical. 
    - Set up MySQL with a root password (e.g., Password1).
    - MySQL server instance configuration wizard installation completion will create a database within the computer so it can storage occupied for osTicket.
@@ -81,6 +87,7 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 <img width="428" alt="step" src="">
 
 ## 8. **:**
+
    - Open IIS as an administrator.
    - Click on PHP Manager, register and enable the new PHP version by providing the path to `php-cgi.exe` in `C:\PHP`.
    - Whenever updating anything in the IIS it is recommendeded to restart the web server in manage server.
@@ -90,6 +97,7 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 <img width="428" alt="step" src="">
 
 ## 9. **:**
+
    - Download osTicket from the Installation Files Folder.
    - Extract and copy the "upload" folder onto `C:\inetpub\wwwroot`. (This is our servers main folder)
    - Rename the "upload" folder to "osTicket".
@@ -99,6 +107,7 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 <img width="428" alt="step" src="">
 
 ## 10. **:**
+
    - Go to sites -> Default web site -> osTicket in IIS.
    - In the right side click *Browser *:80*
    - GO back to sites -> osticket -> In IIS Enable the following PHP extensions in PHP Manager:
