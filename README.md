@@ -12,16 +12,11 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 - **Internet service connection**
 - **Internet browser microsoft edge**
 - **Operating System:** Windows 10 (21H2)
-- **Computer with internet connection**
-- **Credit card(required for free azure credits)**
 
 ## List of Prerequisites
 
-- 
-- 
-- 
-- 
-- 
+- **Computer with internet connection**
+- **Credit card(required for free azure credits)**
 
 ## Installation Steps
 
