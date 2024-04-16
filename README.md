@@ -31,14 +31,14 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 
 
 
-## 2. **:**
+## 2. **Within the Azure Portal, Create a Resource Group:**
 
    - Connect using Remote Desktop Connection app using the public IP address of the VM.
    - Also using the assigned login account and password
 <img width="428" alt="step" src="">
 <img width="428" alt="step" src="">
 
-## 3. **:**
+## 3. **Create a Storage Account within the Resource Group created in Step 2:**
 
    - Go to Control Panel -> Programs -> Turn Windows features on and off.
    - Install/enable IIS with CGI and Common HTTP Features
@@ -48,7 +48,7 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 <img width="428" alt="step" src="">
 <img width="428" alt="step" src="">
 
-## 4. **:**
+## 4. **Create a file on your local desktop and upload it into the Storage Account:**
 
    - Download and install PH
    -P Manager for IIS (PHPManagerForIIS_V1.5.0.msi).
@@ -56,14 +56,14 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 <img width="428" alt="step" src="">
 <img width="428" alt="step" src="">
 
-## 5. **:**
+## 5. **Edit the file within the Storage Account (within the Azure Portal):**
 
    - Download and install the Rewrite Module (rewrite_amd64_en-US.msi).
 <img width="428" alt="step" src="">
 <img width="428" alt="step" src="">
 <img width="428" alt="step" src="">
 
-## 6. **:**
+## 6. **Download the file and observe the changes:**
 
    - Create a Directory folder named `PHP` in the C drive.
    - Download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) extract and unzip it into `C:\PHP`.
@@ -72,7 +72,7 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 <img width="428" alt="step" src="">
 <img width="428" alt="step" src="">
 
-## 7. **:**
+## 7. **Delete the Resource Group created in step 1 (in order to ensure you don’t incur “cost”):**
 
    - Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi). For installation accept agreements and set my sql as typical. 
    - Set up MySQL with a root password (e.g., Password1).
@@ -81,7 +81,7 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 <img width="428" alt="step" src="">
 <img width="428" alt="step" src="">
 
-## 8. **:**
+## 8. **Verify that the Resource Group has been deleted:**
 
    - Open IIS as an administrator.
    - Click on PHP Manager, register and enable the new PHP version by providing the path to `php-cgi.exe` in `C:\PHP`.
@@ -97,19 +97,6 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
    - Extract and copy the "upload" folder onto `C:\inetpub\wwwroot`. (This is our servers main folder)
    - Rename the "upload" folder to "osTicket".
    - Reload IIS.
-<img width="428" alt="step" src="">
-<img width="428" alt="step" src="">
-<img width="428" alt="step" src="">
-
-## 10. **:**
-
-   - Go to sites -> Default web site -> osTicket in IIS.
-   - In the right side click *Browser *:80*
-   - GO back to sites -> osticket -> In IIS Enable the following PHP extensions in PHP Manager:
-      - php_imap.dll
-      - php_intl.dll
-      - php_opcache.dll
-   - Check on osticket window if the PHP extentions have been updated with the green checkmark
 <img width="428" alt="step" src="">
 <img width="428" alt="step" src="">
 <img width="428" alt="step" src="">
