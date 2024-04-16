@@ -20,16 +20,19 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 
 ## Installation Steps
 
-## 1. **:**
+## 1. **Go to website to begin a brand new Microsoft Azure account:**
 
    - Go to [Azure portal Website](https://portal.azure.com/). Make sure not to click on ads.
-   - Sign up for a brand new account, click where it states 'Start free'.
-   - 
+   - Sign up for a brand new account, click where it states `Start free`.
+   - Create new acoount with your email and put in the verfication code sent to your account.
+   - fill in all your pesronal inforamtion then your acount will be ready for you.
 <img width="428" alt="Step1A" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/9be5ed9b-8a1d-42c3-a0a6-74ccb82df3bf">
 <img width="428" alt="Step1B" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/95eacf14-ff6e-4012-8014-b4f1f9272f94">
-<img width="428" alt="Step" src="">
-
-
+<img width="428" alt="Step1C" src="(https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/08cecbb5-f3c2-46e3-afe2-0a3613ce4c81)">
+<img width="428" alt="step1D" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/f0a89ffd-169f-47bf-9e37-1171dbde3021)">
+<img width="428" alt="step1E" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/196f2062-b1f6-4542-bf51-b5008a2ff673)">
+<img width="428" alt="step" src="">
+<img width="428" alt="step" src="">
 
 ## 2. **Within the Azure Portal, Create a Resource Group:**
 
