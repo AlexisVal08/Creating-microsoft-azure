@@ -35,24 +35,32 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 
 ## 2. **Within the Azure Portal, Create a Resource Group:**
 
-   - click go to azure portal and you are in the main page now logged in.
-   - Check to see if your new account created a subcription default directory
-   - This is the default subscription that is active and with a $200 credit to use for your azure account 
+   - Click go to azure portal and you are in the main page now logged in.
+   - Check to see if your new account created a subcription default directory.
+   - This is the default subscription that is active, with a `$200 credit` to use for your azure account.
+   - Now type in resource groups and click on the section of resource groups.
+   - Go to where it says create resource group click it.
+   - Fill in the information forsubscription-> name the resource group-> pick the region for the resource group, Click next.
+   - Make sure you have a validation pass with a green check after clicking next to solidify creating a resource group. 
+   - The resource group is essentially a folder dedictated to what youll like to you use it for. 
 <img width="428" alt="Step2A" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/8ef075df-3437-4322-96b6-003f329493a6">
 <img width="428" alt="Step2B" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/4fe7de04-dfa5-4859-9056-08226f2b3d09">
 <img width="428" alt="Step2C" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/20f50af9-2957-4955-83f9-26960fa28284">
 <img width="428" alt="Step2D" src="(https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/f4caca7e-a2ed-4e1b-8882-4c8c171b2047">
-<img width="428" alt="Ste2Ep" src="">
-
+<img width="428" alt="Step2E" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/47adc252-af24-4b24-accd-8dd48e983367">
+<img width="428" alt="Step2F" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/5e4a65c8-da2f-4f0e-842d-3ba58ae594b3">
+<img width="428" alt="Step2G" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/0ed2edda-435d-4462-9d63-d7c973ef9829">
+<img width="428" alt="Step2H" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/5cf5255e-ecaa-4de6-88d4-c95c903b824e">
+<img width="428" alt="StepI" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/459830d7-5581-4271-bdac-875df863938f">
 ## 3. **Create a Storage Account within the Resource Group created in Step 2:**
 
    - Go to Control Panel -> Programs -> Turn Windows features on and off.
    - Install/enable IIS with CGI and Common HTTP Features
    - World Wide Web Services -> Application Development Features
-<img width="428" alt="step" src="">
-<img width="428" alt="step" src="">
-<img width="428" alt="step" src="">
-<img width="428" alt="step" src="">
+<img width="428" alt="Step" src="">
+<img width="428" alt="Step" src="">
+<img width="428" alt="Step" src="">
+<img width="428" alt="Step" src="">
 
 ## 4. **Create a file on your local desktop and upload it into the Storage Account:**
 
