@@ -35,10 +35,14 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 
 ## 2. **Within the Azure Portal, Create a Resource Group:**
 
-   - Connect using Remote Desktop Connection app using the public IP address of the VM.
-   - Also using the assigned login account and password
-<img width="428" alt="step" src="">
-<img width="428" alt="step" src="">
+   - click go to azure portal and you are in the main page now logged in.
+   - Check to see if your new account created a subcription default directory
+   - This is the default subscription that is active and with a $200 credit to use for your azure account 
+<img width="428" alt="Step2A" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/8ef075df-3437-4322-96b6-003f329493a6">
+<img width="428" alt="Step2B" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/4fe7de04-dfa5-4859-9056-08226f2b3d09">
+<img width="428" alt="Step2C" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/20f50af9-2957-4955-83f9-26960fa28284">
+<img width="428" alt="Step2D" src="(https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/f4caca7e-a2ed-4e1b-8882-4c8c171b2047">
+<img width="428" alt="Ste2Ep" src="">
 
 ## 3. **Create a Storage Account within the Resource Group created in Step 2:**
 
