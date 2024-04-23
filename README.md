@@ -73,7 +73,7 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 <img width="428" alt="Step3G" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/8a356b7a-8e6f-4b47-b4bd-fb24c5b4e927">
 <img width="428" alt="Step3H" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/e7a165ab-f575-4baf-9022-e85cc68351c4">
 
-## 4. **Create a container file on your azure for your Storage Account:**
+## 4. **Create a container file for your azure Storage Account:**
 
    - Click on where it says `containers` (files) and click on `+ containers` to create a new file for the storage account.
    - Name the the container `cclab01` -> Private access level `private` -> Then click `Create`.
@@ -82,41 +82,48 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 <img width="428" alt="Step4B" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/f327740c-fc83-47fa-aa50-c416b3df6084">
 <img width="428" alt="Step4C" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/e1e6dc34-9b08-49dd-ad30-0e5e780559ba">
 
-## 5. **Create a file on your local desktop and upload it into the Storage Account:**
+## 5. **Create a text file on your local desktop and upload it into the Storage Account (container file):**
 
-   - Download and install the Rewrite Module (rewrite_amd64_en-US.msi).
-<img width="428" alt="Step" src="">
-<img width="428" alt="Step" src="">
-<img width="428" alt="Step" src="">
+   - Go to your desktop and type in notepad and type in Hello world!
+   - Name, save the file and upload it to your azure container `cclab01` file.
+   - Once the text file is uploaded, Click to view text file
+<img width="428" alt="Step5A" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/043a187b-c51d-44fc-b844-a48dc47f5015">
+<img width="428" alt="Step5B" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/b47fe4c8-ff03-49cd-8715-fc382b51ad3b">
+<img width="428" alt="Step5C" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/95cfac7d-316e-43e1-93bf-155551f73df1">
+<img width="428" alt="Step5D" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/eeed98e2-73f4-4598-a586-11464813e228">
+<img width="428" alt="Step5E" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/83263252-f447-4c8e-8090-6307179fa99b">
 
-## 6. **Download the file and observe the changes:**
+## 6. **Observe edit and view the changes within the file :**
 
-   - Create a Directory folder named `PHP` in the C drive.
-   - Download PHP 7.3.8 (php-7.3.88-nts-Win32-VC15-x866.zip) extract and unzip it into `C:\PHP`.
-   - Download and install VC_redist.x86.exe from the installation files.
-<img width="428" alt="Step" src="">
-<img width="428" alt="Step" src="">
-<img width="428" alt="step" src="">
+   - Click onto view and edit within the text file that was uploaded.
+   - when the file is uploaded it should show `Hello world!`
+   - You can type anything here. In this scenario it is typed `my edit`. then click `Save` to save the changes.
+<img width="428" alt="Step6A" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/da7f4971-e268-4b66-aa19-1f6e21a09917">
+<img width="428" alt="Step6B" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/82518dad-085d-4d16-b392-2c39a2e4027e">
+<img width="428" alt="step6C" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/947e1e67-1518-431a-816d-638c24b672ef">
 
 ## 7. **Delete the Resource Group created in step 1 (in order to ensure you don’t incur “cost”):**
 
-   - Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi). For installation accept agreements and set my sql as typical. 
-   - Set up MySQL with a root password (e.g., Password1).
-   - MySQL server instance configuration wizard installation completion will create a database within the computer so it can storage occupied for osTicket.
-<img width="428" alt="Step" src="">
-<img width="428" alt="Step" src="">
-<img width="428" alt="Step" src="">
+   - This is important to save yourself from building up cost charges when using up your azure account subsrciption/ rsources.
+   - Type https://portal.azure.com to get back to the main page.
+   - Type, click resource groups to get into the resource group webage.
+   - Click the only resource group created and click  `delete resource group`.
+   - Type the name of the resource group correctly and click `delete` to comfirm deletion.
+   - A notification that states deleted resource group `RG-lab-1`.
+<img width="428" alt="Step7A" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/05f1c5d4-5575-44f5-8965-1b9cc703a217">
+<img width="428" alt="Step7B" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/dd771e9d-344a-45d5-86e4-53c30057b469">
+<img width="428" alt="Step7C" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/fc7ffa12-fc92-473d-b1db-36f019e38878">
+<img width="428" alt="Step7D" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/32cf8b51-3c79-4261-83f5-eec9181a7123">
+<img width="428" alt="Step7E" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/22233c4f-256d-4a6c-ba45-c8680559ef57">
+<img width="428" alt="Step7F" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/17e5db4a-371a-4e57-af0e-942c75b708e7">
 
 ## 8. **Verify that the Resource Group has been deleted:**
 
-   - Open IIS as an administrator.
-   - Click on PHP Manager, register and enable the new PHP version by providing the path to `php-cgi.exe` in `C:\PHP`.
-   - Whenever updating anything in the IIS it is recommendeded to restart the web server in manage server.
-   - Reload IIS, Open IIS, Stop and Start the server.
-<img width="428" alt="Step" src="">
-<img width="428" alt="Step" src="">
-<img width="428" alt="Step" src="">
-
+   - Type and or click `Resource Groups`
+   - there should no longer be any resource groups in the resource groups webpage.
+   - The deletion of the resource group has been completed.
+<img width="428" alt="Step8A" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/416f3b8d-adb9-4b0a-b093-e206379883ed">
+<img width="428" alt="Step8B" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/5e416b39-a213-44fb-9ff1-a5289a13ad09">
 ## 9. **:**
 
    - Download osTicket from the Installation Files Folder.
