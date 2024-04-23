@@ -96,7 +96,7 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 ## 6. **Observe edit and view the changes within the file :**
 
    - Click onto view and edit within the text file that was uploaded.
-   - when the file is uploaded it should show `Hello world!`
+   - When the file is uploaded it should show `Hello world!`.
    - You can type anything here. In this scenario it is typed `my edit`. then click `Save` to save the changes.
 <img width="428" alt="Step6A" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/da7f4971-e268-4b66-aa19-1f6e21a09917">
 <img width="428" alt="Step6B" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/82518dad-085d-4d16-b392-2c39a2e4027e">
@@ -108,7 +108,7 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
    - Type https://portal.azure.com to get back to the main page.
    - Type, click resource groups to get into the resource group webage.
    - Click the only resource group created and click  `delete resource group`.
-   - Type the name of the resource group correctly and click `delete` to comfirm deletion.
+   - Type the name of the resource group correctly and click `delete` to confirm deletion.
    - A notification that states deleted resource group `RG-lab-1`.
 <img width="428" alt="Step7A" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/05f1c5d4-5575-44f5-8965-1b9cc703a217">
 <img width="428" alt="Step7B" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/dd771e9d-344a-45d5-86e4-53c30057b469">
@@ -117,22 +117,40 @@ This tutorial outlines the prerequisites and installation for Microsoft Azure
 <img width="428" alt="Step7E" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/22233c4f-256d-4a6c-ba45-c8680559ef57">
 <img width="428" alt="Step7F" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/17e5db4a-371a-4e57-af0e-942c75b708e7">
 
-## 8. **Verify that the Resource Group has been deleted:**
+## 8. **Verify the Resource Group has been deleted:**
 
-   - Type and or click `Resource Groups`
-   - there should no longer be any resource groups in the resource groups webpage.
+   - Type and or click `Resource Groups`.
+   - There should no longer be any resource groups in the resource groups webpage.
    - The deletion of the resource group has been completed.
 <img width="428" alt="Step8A" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/416f3b8d-adb9-4b0a-b093-e206379883ed">
 <img width="428" alt="Step8B" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/5e416b39-a213-44fb-9ff1-a5289a13ad09">
-## 9. **:**
 
-   - Download osTicket from the Installation Files Folder.
-   - Extract and copy the "upload" folder onto `C:\inetpub\wwwroot`. (This is our servers main folder)
-   - Rename the "upload" folder to "osTicket".
-   - Reload IIS.
-<img width="428" alt="Step" src="">
-<img width="428" alt="Step" src="">
-<img width="428" alt="Step" src="">
+## 9. **Check on cost management and billing:**
 
+   - This is important to focus on fequently to view what you are being charged of and to keep up to date with your azure account.
+   - You are responsible for your account!
+   - Type and click `cost mamgement + billing`
+   - Once on the webpage click on your account in the case `josh madakor`.
+   - Cick the section `azure subscriptions`.
+   - In the azure subcriptions it states your `status` `month to date charges` and `last months charges`.
+   - You can also click on cost analysis, This will evaluate and break down the cost of all resources you have and cuurent/ projected usage cost.
+<img width="428" alt="Step9A" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/1a11e16f-a77e-48dc-a1c0-efdd52990c64">
+<img width="428" alt="Step9B" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/e9150a31-7983-4c94-b2f7-c835dfe87a27">
+<img width="428" alt="Step9C" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/d7f1a539-a9cc-4608-a6d8-afd00a8bfb60">
+<img width="428" alt="Step9D" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/f71cab2f-c2d8-4758-94e1-40880f262a8d">
+<img width="428" alt="Step9E" src="https://github.com/AlexisVal08/Creating-mircosoft-azure/assets/135868956/dce80074-25b8-4e2b-b8f7-7c59c3707bb9">
 
+##
+
+**THIS IS THE COMPLETION OF CREATING A MICROSOFT AZURE ACCOUNT** 
+**YOU ALSO HAVE LEARNED HOW TO:**
+1. CREATE A RESOURCE GROUP
+2. CREATE A STORAGE ACCOUNT
+3. CREATE A CONTAINER (FOLDER)
+4. UPLOAD TEXT FILES INTO THE CONTAINER FILE
+5. EDIT THE TEXT FILES WITHIN THE CONTANIER FILE
+6. DELETE RESOURCES GROUPS NO LONGER NEEDED
+7. RESPONSIBLE AND APPORPIATELY CHECK YOUR ACCOUNT CURRENT USAGE COST AND PORJECTED COST.
+
+**hoorayyyyy!!!!!**
 
